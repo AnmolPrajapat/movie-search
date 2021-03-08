@@ -17,12 +17,13 @@ export default function SearchMovies() {
             const data  = await res.json();
             setMovies(data.results);
             setApiCall(true);
+            console.log(data)
         }
     }
     catch(err){
         console.error(err);
     }
-  };
+  }
   function showList() {
     if(movies.length) {
         return (
