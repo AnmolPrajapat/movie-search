@@ -31,7 +31,7 @@ export default function SearchMovies() {
 
   return (
     <div>
-      <form onSubmit={SearchMovies}>
+      <form onSubmit={SearchMovies} className="form">
         <label htmlFor="label" className="label">
           {" "}
           Movie Name
