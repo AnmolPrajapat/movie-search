@@ -35,15 +35,23 @@ small {
   text-transform: uppercase;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  border:lightgray 2px solid;
+  background-color: rgb(151, 125, 129);
+  border-radius: 12px;
+  padding: 5px;
+  margin-right: 5px;
+  
 }
 
 .input {
+  margin-left:10px;
   font-size: 1.6rem;
-  padding: 0.5rem 2rem;
+  padding: 8px 8px;
   line-height: 2.8rem;
   border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button {
@@ -55,6 +63,8 @@ small {
   font-size: 1.4rem;
   cursor: pointer;
   transition: background-color 250ms;
+  width:80%;
+  margin-top: 1rem;
 }
 
 .button:hover {
@@ -94,7 +104,7 @@ small {
   margin: 0 auto;
   display: block;
 }
-.notFound {
+.not-Found {
   margin-top: 1.5em;
   font-size: 22px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -102,10 +112,10 @@ small {
   color: black;
 }
 .foot {
-  font-size: 28px;
+  font-size: 12px;
   text-align: center;
   text-decoration: linen;
-  margin-top: 12px;
+  margin-top: 20px;
   border: 2px solid red;
   border-radius: 4px;
   background-color: lightgrey;
