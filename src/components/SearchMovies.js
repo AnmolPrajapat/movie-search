@@ -72,7 +72,7 @@ export default function SearchMovies() {
       return (
         <div>
           <div className="not-found">
-            <h1>movie {query} you are searching for is not found in data </h1>
+            <h1>movie {query} not found on data </h1>
           </div>
           <div className="foot">
             <h1>thank you for searching!</h1>
