@@ -37,6 +37,7 @@ export default function SearchMovies() {
           Movie Name
         </label>
         <input
+          className="input"
           type="text"
           name="query"
           value={query}
