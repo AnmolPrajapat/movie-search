@@ -64,7 +64,7 @@ export default function SearchMovies() {
           type="text"
           className="input"
           name="query"
-          placeholder="jurrasic park"
+          placeholder="type your search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         required/>
